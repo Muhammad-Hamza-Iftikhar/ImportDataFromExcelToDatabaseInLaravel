@@ -7,3 +7,6 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
  
+<p>
+    This Laravel project is designed to upload an Excel sheet containing user and contact data and store it in a MySQL database. The project utilizes the maatwebsite/Excel package to facilitate the upload process. The data is stored in two separate tables, 'users' and 'contacts', with a foreign key relationship linking the 'contacts' table to the 'users' table. This project provides a convenient and efficient way to import large amounts of user and contact data into a database.
+</p>
